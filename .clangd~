@@ -1,0 +1,16 @@
+CompileFlags:
+	Add:
+		- -std=c++20
+		- -fPIC
+		- -I/usr/include/qt
+		- -I/usr/include/qt/QtCore
+		- -I/usr/include/qt/QtGui
+		- -I/usr/include/qt/QtWidgets
+
+		- -I/usr/include/qt/QtWebEngineCore
+		- -I/usr/include/qt/QtWebEngineWidgets
+		- -I/usr/include/qt/QtWebEngine
+		- -I/usr/include/qt/QtWebChannel
+		- -I/usr/include/qt/QtNetwork
+
+		- -I/usr/include/Qsci

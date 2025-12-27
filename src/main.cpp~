@@ -1,0 +1,13 @@
+#include <QApplication>
+#include <QMainWindow>
+#include <QWebEngineView>
+
+int main(int argc, char *argv[]) {
+  QApplication app(argc, argv);
+
+  QWebEngineView web;
+  web.load(QUrl("https://gnu.org"));
+
+  web.show();
+  return app.exec();
+}
